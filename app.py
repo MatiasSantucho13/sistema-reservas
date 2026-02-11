@@ -6,7 +6,7 @@ st.set_page_config(page_title="Gestión de Inflables", layout="centered")
 
 # --- INTERFAZ ---
 st.title("🎈 Reservas Santec")
-url = "https://docs.google.com/spreadsheets/d/1L6DaBZJANYvnOLWvqb3GFMUTyB5A0ERUmpUY6K3h8RY/edit?usp=sharingT" 
+url = "https://docs.google.com/spreadsheets/d/1L6DaBZJANYvnOLWvqb3GFMUTyB5A0ERUmpUY6K3h8RY/edit?usp=sharing"
 
 try:
     conn = st.connection("gsheets", type=GSheetsConnection)
