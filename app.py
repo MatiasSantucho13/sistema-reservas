@@ -41,4 +41,3 @@ st.subheader("📋 Agenda Actual")
 st.dataframe(df, use_container_width=True)
 
 
-https://docs.google.com/spreadsheets/d/1L6DaBZJANYvnOLWvqb3GFMUTyB5A0ERUmpUY6K3h8RY/edit?usp=sharing
