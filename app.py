@@ -6,7 +6,7 @@ SHEET_ID = "1L6DaBZJANYvnOLWvqb3GFMUTyB5A0ERUmpUY6K3h8RY"
 # Este link permite que Pandas lea el sheet directamente
 url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv"
 
-st.title("🎈 Reservas Santec")
+st.title("🎈 Reservas Mundo Inflable")
 
 try:
     # Leer datos
@@ -14,7 +14,7 @@ try:
     
     with st.form("nueva_reserva"):
         cliente = st.text_input("Nombre del cliente")
-        inflable = st.selectbox("Inflable", ["Castillo 3x3", "Tobogán Gigante", "Cancha Jabonosa"])
+        inflable = st.selectbox("Inflable", ["3x3", "3x4", "deslizador"])
         fecha = st.date_input("Fecha")
         
         if st.form_submit_button("Verificar y Avisar"):
